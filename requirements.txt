@@ -1,0 +1,7 @@
+langchain>=0.2.0
+langchain-community>=0.0.19
+langchain-huggingface
+langchain-openai
+faiss-cpu
+sentence-transformers
+openai

@@ -1,0 +1,135 @@
+/* Chatbot container */
+#chatbot-container {
+    position: fixed;
+    bottom: 90px;
+    right: 30px;
+    width: 350px;
+    height: 450px;
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+    display: none;
+    flex-direction: column;
+    overflow: hidden;
+    z-index: 9999;
+}
+
+/* Chatbot header */
+#chatbot-header {
+    background: linear-gradient(135deg, #00545e, #2185a0, #006b80);
+    color: white;
+    padding: 12px 16px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Close button */
+#chatbot-close {
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Chatbot messages area */
+#chatbot-messages {
+    flex: 1;
+    padding: 16px;
+    overflow-y: auto;
+    font-family: "Inter", Helvetica;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Input area */
+#chatbot-input-area {
+    display: flex;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    background-color: #f8f9fc;
+}
+
+#chatbot-input {
+    flex: 1;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-family: "Inter", Helvetica;
+}
+
+#chatbot-send {
+    margin-left: 8px;
+    background-color: #2185a0;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+#chatbot-send:hover {
+    background-color: #006b80;
+}
+
+#chatbot-clear {
+    margin: 8px;
+    padding: 6px 12px;
+    border: none;
+    background-color: #ccc;
+    color: #333;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: "Inter", Helvetica;
+    transition: background-color 0.3s;
+}
+
+#chatbot-clear:hover {
+    background-color: #bbb;
+}
+
+/* 💡 New styles for clickable answer buttons */
+.answer-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 10px;
+}
+
+.response-button {
+    background-color: #2185a0;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: "Inter", Helvetica;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.response-button:hover {
+    background-color: #006b80;
+}
+
+.back-button {
+    background-color: #ccc;
+    color: #333;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: "Inter", Helvetica;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.back-button:hover {
+    background-color: #bbb;
+}

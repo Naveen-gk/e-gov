@@ -1,0 +1,70 @@
+.services-section {
+    width: 90%;
+    border-radius: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    padding: 3rem;
+    background-color: #204f71;
+    margin: auto;
+}
+
+.title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: var(--style-guide-spacing-spacing-32);
+}
+
+.title-text {
+    color: #f1e19c;
+    font-size: 14px;
+    text-align: right;
+    letter-spacing: 0.28px;
+    line-height: 23.1px;
+    white-space: nowrap;
+    font-family: "Carter One-Regular", Helvetica;
+    text-align: center;
+}
+
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px;
+    justify-content: center;
+    max-width: 1200px;
+}
+
+.service-card {
+    background-color: #193453;
+    border-radius: 20px;
+    padding: 24px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    /* Transition added for consistency with other cards in styles.css */
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Added hover effect to match the interactive feel of department and scheme cards */
+.service-card:hover {
+    transform: translateY(-5px);
+    background-color: #1c3d5e;
+}
+
+.service-card h2 {
+    color: #f1e19c;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+
+.service-card p {
+    color: #ffffff;
+    font-family: "Poppins-Regular", Helvetica;
+    font-size: 14px;
+    line-height: 21px;
+}

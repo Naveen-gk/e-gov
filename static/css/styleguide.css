@@ -1,0 +1,39 @@
+:root {
+    /* Font Variables */
+    --button-button-m-medium-font-family: "Inter", Helvetica;
+    --button-button-m-medium-font-weight: 500;
+    --button-button-m-medium-font-size: 16px;
+    --button-button-m-medium-letter-spacing: -0.32px;
+    --button-button-m-medium-line-height: 120.00000476837158%;
+    --button-button-m-medium-font-style: normal;
+
+    --body-body-s-medium-font-family: "Inter", Helvetica;
+    --body-body-s-medium-font-weight: 500;
+    --body-body-s-medium-font-size: 14px;
+    --body-body-s-medium-letter-spacing: -0.28px;
+    --body-body-s-medium-line-height: 150%;
+    --body-body-s-medium-font-style: normal;
+
+    --body-body-s-regular-font-family: "Inter", Helvetica;
+    --body-body-s-regular-font-weight: 400;
+    --body-body-s-regular-font-size: 14px;
+    --body-body-s-regular-letter-spacing: -0.28px;
+    --body-body-s-regular-line-height: 150%;
+    --body-body-s-regular-font-style: normal;
+
+    /* Shadow and Effects */
+    --img: 4px 5px 8.199999809265137px 0px rgba(26, 45, 49, 0.24);
+
+    /* Color Palette */
+    --style-guide-colors-neutral-colors-neutral-50: rgba(255, 255, 255, 1);
+    --style-guide-colors-neutral-colors-neutral-200: rgba(242, 244, 252, 1);
+    --style-guide-colors-neutral-colors-neutral-100: rgba(248, 249, 252, 1);
+
+    /* Spacing System */
+    --style-guide-spacing-spacing-8: 8px;
+    --style-guide-spacing-spacing-16: 16px;
+    --style-guide-spacing-spacing-24: 24px;
+    --style-guide-spacing-spacing-32: 32px;
+    --style-guide-spacing-spacing-64: 64px;
+    --style-guide-spacing-spacing-96: 96px;
+}

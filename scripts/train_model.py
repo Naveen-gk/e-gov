@@ -56,7 +56,7 @@ for dept in data["departments"]["list"]:
         ]))
 
 # Save the data
-with open("data/tamilnadu_finetune_data.pkl", "wb") as f:
+with open(FINE_TUNE_DATA_PATH, "wb") as f:
     pickle.dump(examples, f)
 
 # Fine-tune the model
@@ -65,4 +65,4 @@ train_loader = DataLoader(examples, shuffle=True, batch_size=8)
 train_loss = losses.MultipleNegativesRankingLoss(model)
 
 model.fit(train_objectives=[(train_loader, train_loss)], epochs=2, warmup_steps=10)
-model.save("fine-tuned-tamilnadu-model")
+model.save(MODEL_SAVE_PATH)

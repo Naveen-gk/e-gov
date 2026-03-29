@@ -90,14 +90,16 @@
 
 .final .navbar {
     display: flex;
-    width: 947px;
+    width: auto;
+    flex: 1;
+    max-width: 947px;
     height: 50px;
     align-items: center;
     justify-content: space-between;
     padding: 30px 50px;
     position: relative;
     border-radius: 45px;
-    overflow: hidden;
+    overflow: visible;
     box-shadow: 0px 4px 6.6px #0000001a;
 }
 
@@ -344,7 +346,8 @@
 
 .final .hero-section {
     position: relative;
-    width: 1440px;
+    width: 100%;
+    max-width: 1440px;
     height: 581.75px;
 }
 
@@ -356,7 +359,7 @@
 .final .frame-5 {
     display: flex;
     flex-direction: column;
-    width: 1440px;
+    width: 100%;
     align-items: flex-start;
     justify-content: center;
     gap: 25px;
@@ -533,7 +536,8 @@
 .final .carousel {
     display: flex;
     flex-direction: column;
-    width: 1440px;
+    width: 100%;
+    max-width: 1440px;
     align-items: center;
     justify-content: center;
     gap: 30px;
@@ -729,74 +733,50 @@
 }
 
 .final .guindy-national-park {
-    position: absolute;
-    width: 369px;
-    height: 246px;
-    top: -1388px;
-    left: 7805px;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
 }
 
 .final .element {
-    position: absolute;
-    width: 257px;
-    height: 306px;
-    top: -1439px;
-    left: 7561px;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
 }
 
 .final .img-2 {
-    position: absolute;
-    width: 221px;
-    height: 332px;
-    top: -1438px;
-    left: 7270px;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
 }
 
 .final .marina-beach {
-    position: absolute;
-    width: 407px;
-    height: 229px;
-    top: -1387px;
-    left: 6945px;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
 }
 
 .final .thiruvalluvar-statue {
-    position: absolute;
-    width: 845px;
-    height: 476px;
-    top: -1388px;
-    left: 6422px;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
 }
 
 .final .popular-destinations {
-    position: absolute;
-    width: 951px;
-    height: 535px;
-    top: -1387px;
-    left: 5914px;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
 }
 
 .final .kanyakumari-wax {
-    position: absolute;
-    width: 538px;
-    height: 302px;
-    top: -1387px;
-    left: 5998px;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
 }
 
 .final .gandhi-memorial {
-    position: absolute;
-    width: 477px;
-    height: 269px;
-    top: -1415px;
-    left: 5806px;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
 }
 
@@ -1200,7 +1180,8 @@
 .final .desktop {
     display: flex;
     flex-direction: column;
-    width: 1440px;
+    width: 100%;
+    max-width: 1440px;
     align-items: flex-start;
     gap: 32px;
     padding: 0px 24px;
@@ -1385,7 +1366,8 @@
 .final .footer {
     display: flex;
     flex-direction: column;
-    width: 1440px;
+    width: 100%;
+    max-width: 1440px;
     align-items: center;
     gap: 25px;
     padding: 80px var(--style-guide-spacing-spacing-96) 80px var(--style-guide-spacing-spacing-96);

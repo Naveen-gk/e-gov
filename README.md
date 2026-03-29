@@ -1,6 +1,10 @@
 # src
 e governance project
 
+cd D:\D_files\ME\Sem4\src\app\ 
+
+python api.py
+
 
 SRC/
 │
